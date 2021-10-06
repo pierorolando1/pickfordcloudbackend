@@ -26,7 +26,7 @@ export class UploadController {
         
         return res.json({
             ok: true,
-            url: `http://pickfordcloudbackend.vercel.app:4000/upload/images/${file.filename}`
+            url: `http://pickfordcloudbackend.vercel.app/upload/images/${file.filename}`
         })
     }
 
